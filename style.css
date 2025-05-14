@@ -72,7 +72,13 @@ main {
     text-decoration: none;
     border-radius: 8px;
     margin-top: 10px;
-    display: inline-block;
+    display:block;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     transition: background-color 0.3s;
 }
 
